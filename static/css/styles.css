@@ -1,0 +1,16 @@
+body{
+	background-image: url(../img/homeBG.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.greeting {
+	text-align: center;
+	margin-top: 140px;
+	font-family: cursive;
+}
+.intro {
+	text-align: center;
+	margin-top: 50px;
+	font-family: cursive;
+}

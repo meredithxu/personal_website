@@ -20,6 +20,9 @@ var port = 8080;
 var router = require('./app/routes.js');
 app.use('/', router);
 
+//location of static files
+app.use(express.static(__dirname + '/static'));
+
 app.listen(port, function(){
 	console.log('localhost:8080');
 });
