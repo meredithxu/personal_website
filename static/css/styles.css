@@ -41,3 +41,28 @@ header{
 	background-color: #e6e6e6;
 }
 
+.aboutMyself {
+	padding-left: 100px;
+	padding-right: 100px;
+	overflow: visible;
+	font-family: "Courier New";
+	display: inline-block;
+}
+
+#aboutMe {
+	font-family: Georgia;
+	margin-bottom: 20px;
+}
+
+.photoOfMe {
+	background-image: url(../img/me.jpg);
+	background-size: cover;
+	background-position: right;
+	width: 275px;
+	height: 358px;
+	margin-left: 900px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    /*position: relative;*/
+	
+}

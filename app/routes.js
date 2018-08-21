@@ -14,3 +14,8 @@ router.get('/about_me', function(req,res){
 	res.sendFile(path.join(__dirname, '../pages/about_me.html'));
 });
 
+router.get('/projects', function(req,res){
+	//res.send('about me page is under construction');
+	res.sendFile(path.join(__dirname, '../pages/projects.html'));
+});
+
