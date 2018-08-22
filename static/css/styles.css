@@ -66,3 +66,22 @@ header{
     /*position: relative;*/
 	
 }
+
+.lisfOfProjects {
+	margin: 20px 30px;
+  	border: 2px blue solid;
+  	display: grid;
+  	grid-auto-rows: auto;
+  	grid-template-columns: repeat(3, 1fr);
+  	grid-row-gap: 15px;
+  	grid-column-gap: 15px;
+}
+
+.proj {
+  	/*background-color: red;*/
+  	color: black;
+  	border-radius: 5px;
+  	border: 2px black solid;
+}
+
+
