@@ -46,42 +46,47 @@ header{
 	padding-right: 100px;
 	overflow: visible;
 	font-family: "Courier New";
-	display: inline-block;
 }
 
 #aboutMe {
-	font-family: Georgia;
+	font-family: cursive;
 	margin-bottom: 20px;
 }
 
 .photoOfMe {
 	background-image: url(../img/me.jpg);
-	background-size: cover;
 	background-position: right;
-	width: 275px;
+	height: 358px;
+	background-repeat: no-repeat;
+	margin: 10px 100px 10px 0px;
+	/*width: 275px;
 	height: 358px;
 	margin-left: 900px;
 	margin-top: 10px;
-	margin-bottom: 10px;
-    /*position: relative;*/
+	margin-bottom: 10px;*/
 	
 }
 
 .lisfOfProjects {
-	margin: 20px 30px;
-  	border: 2px blue solid;
+	margin: 30px 30px;
+  	/*border: 2px blue solid;*/
   	display: grid;
   	grid-auto-rows: auto;
   	grid-template-columns: repeat(3, 1fr);
-  	grid-row-gap: 15px;
+  	grid-row-gap: 10px;
   	grid-column-gap: 15px;
 }
 
-.proj {
-  	/*background-color: red;*/
+/*.proj {
+  	background-color: red;
   	color: black;
   	border-radius: 5px;
   	border: 2px black solid;
-}
+}*/
 
+.description {
+	font-size: 12px;
+	font-family: "Courier New";
+	font-weight: 700;
+}
 
