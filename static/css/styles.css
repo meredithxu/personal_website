@@ -51,14 +51,17 @@ header{
 #aboutMe {
 	font-family: cursive;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .photoOfMe {
 	background-image: url(../img/me.jpg);
 	background-position: right;
 	height: 358px;
+	width: 275px;
 	background-repeat: no-repeat;
 	margin: 10px 100px 10px 0px;
+	float: right;
 	/*width: 275px;
 	height: 358px;
 	margin-left: 900px;
