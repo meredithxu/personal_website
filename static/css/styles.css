@@ -1,4 +1,4 @@
-.homeBody{
+.homeBody {
 	background-image: url(../img/homeBG.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -16,21 +16,24 @@
 	font-size: 75px;
 }
 
-header{
+.text-center {
+	font-weight: bold;
+}
+/*header{
 	width: 1030px;
-}
+}*/
 
-.navbar-header {
+/*.navbar-header {
 	padding-right: 80px;
-}
+}*/
 
 .navbar-brand {
 	color: #333399;
 	border-style: solid;
 	border-radius: 5px;
 	border-color: #000000;
-	padding-right: 5px;
-	padding-left: 5px;
+	/*padding-right: 5px;
+	padding-left: 5px;*/
 }
 
 /*.text-center a{
