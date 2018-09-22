@@ -73,15 +73,15 @@
 	
 }
 
-.lisfOfProjects {
+/*.listOfProjects {
 	margin: 30px 30px;
-  	/*border: 2px blue solid;*/
+  	border: 2px blue solid;
   	display: grid;
   	grid-auto-rows: auto;
   	grid-template-columns: repeat(3, 1fr);
   	grid-row-gap: 10px;
   	grid-column-gap: 15px;
-}
+}*/
 
 /*.proj {
   	background-color: red;
@@ -89,10 +89,17 @@
   	border-radius: 5px;
   	border: 2px black solid;
 }*/
-
-.description {
-	font-size: 12px;
-	font-family: "Courier New";
-	font-weight: 700;
+.card {
+	margin-top: 5px;
+}
+.card-title {
+	color: #3c0372;
+	font-family: "Helvetica";
+	font-weight: bold;
+}
+.card-text {
+	font-size: 15px;
+	font-family: "Helvetica";
+	font-weight: 500;
 }
 
